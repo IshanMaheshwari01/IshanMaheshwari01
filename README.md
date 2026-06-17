@@ -43,10 +43,8 @@ Bioinformatics enthusiast with a strong foundation in genomics data analysis, st
 ## Featured Projects
 
 ### 🧬 [RNA-Seq Differential Expression Analysis](link-to-repo)
-End-to-end analysis pipeline for identifying differentially expressed genes in cancer vs normal tissue
-- **Tools**: DESeq2, ggplot2, clusterProfiler
-- **Key Features**: Quality control, normalization, statistical testing, pathway enrichment
 
+### 🧬 [single-cell-rnaseq-pbmc3k](link-to-repo)
 
 ## GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=IshanMaheshwari01&show_icons=true&theme=radical)
