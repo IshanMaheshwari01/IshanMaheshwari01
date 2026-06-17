@@ -49,7 +49,7 @@ End-to-end analysis pipeline for identifying differentially expressed genes in c
 
 
 ## GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=IshanMaheshwari01&show_icons=true&theme=radical)
 
 ## Currently Learning
 - Advanced single-cell genomics analysis
