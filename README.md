@@ -42,9 +42,9 @@ Bioinformatics enthusiast with a strong foundation in genomics data analysis, st
 
 ## Featured Projects
 
-### 🧬 [RNA-Seq Differential Expression Analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)
+### [RNA-Seq Differential Expression Analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)
 
-### 🧬 [single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)
+### [single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)
 
 ## GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=IshanMaheshwari01&show_icons=true&theme=radical)
