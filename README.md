@@ -1,71 +1,42 @@
-# Hi there, I'm Ishan Maheshwari 👋
+# Ishan Maheshwari
 
-## Education
-- MSc in Genomics Data Science | University of Galway, Ireland
-- Bachelor of Engineering in Computer Engineering | Gujarat Technological University, India
+MSc Genomics Data Science student at the University of Galway, coming from a computer engineering background. I build pipelines that turn raw sequencing data – bulk RNA-seq, single-cell, long-read metagenomics, germline variants – into something a biologist can actually use.
 
-## About Me
-Bioinformatics enthusiast with a strong foundation in genomics data analysis, statistical modeling, and computational biology. Passionate about leveraging data science to solve complex biological problems and translate genomic insights into actionable knowledge.
+Based in Ireland. Open to bioinformatics, computational biology, and genomics data science roles.
 
-## Areas of Interest
-- Genomics & Transcriptomics Analysis
-- Biostatistics & Statistical Genomics
-- Computational Biology
-- Health Data Science
-- Machine Learning in Bioinformatics
+## Background
 
-## Technical Skills
+- MSc, Genomics Data Science – University of Galway, Ireland
+- B.E., Computer Engineering – Gujarat Technological University, India
 
-**Programming Languages**  
+The computer engineering background is why most of these projects lean toward reproducible, containerized pipelines (Nextflow, Docker, Makefiles) rather than one-off notebooks.
+
+## What I work with
+
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-24.04-0DC09D?style=flat&logo=nextflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-**Bioinformatics & Data Analysis**
-- RNA-Seq & Differential Expression Analysis (DESeq2, edgeR, limma)
-- Genomic Variant Analysis (VCF, SNP/INDEL)
-- Single-Cell RNA-Seq (Seurat)
-- Pathway & Enrichment Analysis (clusterProfiler, KEGG, GO)
-- GWAS & Population Genomics
+- RNA-seq differential expression (DESeq2, pydeseq2), single-cell RNA-seq (Scanpy), GWAS/population genomics, GATK germline variant calling, GO/pathway enrichment
+- Pipeline tooling: Nextflow DSL2, Docker, Snakemake-style modular design, MultiQC
+- R (tidyverse, Bioconductor, Shiny) and Python (scanpy, pandas, scikit-learn) about equally
 
-**R Ecosystem**
-- Data Wrangling: tidyverse, dplyr, tidyr
-- Visualization: ggplot2, plotly, ComplexHeatmap
-- Shiny App Development
-- Bioconductor packages
-- Statistical Modeling & Machine Learning
+## Projects
 
-**Tools & Technologies**
-- Version Control: Git, GitHub
-- Reproducible Research: R Markdown, Quarto
-- Data Visualization & Reporting
+**[amr-nano-context](https://github.com/IshanMaheshwari01/amr-nano-context)** – Long-read metagenomic resistome profiling that reports *where* a resistance gene sits (plasmid vs. chromosome) and *which organism* carries it, not just that it's present. Validated against a real Oxford Nanopore mock-community run.
 
-## Featured Projects
+**[gatk4-germline-pipeline](https://github.com/IshanMaheshwari01/gatk4-germline-pipeline)** – Containerized germline variant-calling pipeline (BWA-MEM → BQSR → HaplotypeCaller → MultiQC) following GATK Best Practices, portable across local, SLURM, and AWS Batch.
 
-### [RNA-Seq Differential Expression Analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)
+**[single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)** – Recovers 8 immune cell populations from 2,700 unlabeled PBMC single-cell profiles using Scanpy – QC, clustering, marker genes, UMAP, all from raw counts.
 
-### [single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)
+**[RNA-seq-differential-expression-analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)** – Differential expression and pathway enrichment on real public TCGA tumor-vs-normal RNA-seq data, built with pydeseq2 and gseapy.
 
-## GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=IshanMaheshwari01&show_icons=true&theme=radical)
+## Currently learning
 
-## Currently Learning
-- Advanced single-cell genomics analysis
-- Deep learning applications in bioinformatics
-- Cloud computing for large-scale genomic data
+Doublet detection and batch integration for single-cell data, and how far I can push AWS Batch / cloud execution for the variant-calling pipeline on larger cohorts.
 
-## How to Reach Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/ishanmaheshwari2001)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ishanmaheshwari02@gmail.com)
+## Reach me
 
-## Open to Opportunities
-I'm actively seeking positions in:
-- Bioinformatics
-- Computational Biology
-- Biostatistics
-- Genomics Data Science
-- Health Data Science
-
----
-
-From [IshanMaheshwari01](https://github.com/IshanMaheshwari01)
+[LinkedIn](https://www.linkedin.com/in/ishanmaheshwari2001) · [Email](mailto:ishanmaheshwari02@gmail.com)
