@@ -1,42 +1,46 @@
 # Ishan Maheshwari
 
-MSc Genomics Data Science student at the University of Galway, coming from a computer engineering background. I build pipelines that turn raw sequencing data – bulk RNA-seq, single-cell, long-read metagenomics, germline variants – into something a biologist can actually use.
+I'm doing an MSc in Genomics Data Science at the University of Galway. Before that I studied computer engineering, so I like building analyses that someone else can actually rerun, not just a notebook that worked once on my laptop.
 
-Based in Ireland. Open to bioinformatics, computational biology, and genomics data science roles.
+I'm based in Ireland and looking for roles in bioinformatics, computational biology and genomics data science.
 
 ## Background
 
-- MSc, Genomics Data Science – University of Galway, Ireland
-- B.E., Computer Engineering – Gujarat Technological University, India
+- MSc Genomics Data Science, University of Galway, Ireland
+- B.E. Computer Engineering, Gujarat Technological University, India
 
-The computer engineering background is why most of these projects lean toward reproducible, containerized pipelines (Nextflow, Docker, Makefiles) rather than one-off notebooks.
-
-## What I work with
+## What I use
 
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![Nextflow](https://img.shields.io/badge/Nextflow-24.04-0DC09D?style=flat&logo=nextflow&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-0DC09D?style=flat&logo=nextflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-- RNA-seq differential expression (DESeq2, pydeseq2), single-cell RNA-seq (Scanpy), GWAS/population genomics, GATK germline variant calling, GO/pathway enrichment
-- Pipeline tooling: Nextflow DSL2, Docker, Snakemake-style modular design, MultiQC
-- R (tidyverse, Bioconductor, Shiny) and Python (scanpy, pandas, scikit-learn) about equally
+- Bulk and single-cell RNA-seq (DESeq2, pydeseq2, limma, Scanpy), GATK variant calling, GWAS, pathway enrichment
+- Nextflow and Docker for pipelines, Make and pytest for smaller projects
+- R (tidyverse, Bioconductor, Shiny) and Python (scanpy, pandas, scikit-learn, PyTorch)
 
 ## Projects
 
-**[amr-nano-context](https://github.com/IshanMaheshwari01/amr-nano-context)** – Long-read metagenomic resistome profiling that reports *where* a resistance gene sits (plasmid vs. chromosome) and *which organism* carries it, not just that it's present. Validated against a real Oxford Nanopore mock-community run.
+**[sle-pbmc-ml](https://github.com/IshanMaheshwari01/sle-pbmc-ml)**
+Can a blood sample tell lupus patients apart from healthy people? I used 1.26 million single cells from 261 people. The tricky part was that disease status is mixed up with processing batch in this dataset, so most of the work went into checking how much of the accuracy is real once batch can't help.
 
-**[gatk4-germline-pipeline](https://github.com/IshanMaheshwari01/gatk4-germline-pipeline)** – Containerized germline variant-calling pipeline (BWA-MEM → BQSR → HaplotypeCaller → MultiQC) following GATK Best Practices, portable across local, SLURM, and AWS Batch.
+**[amr-nano-context](https://github.com/IshanMaheshwari01/amr-nano-context)**
+A Nextflow pipeline for nanopore metagenomics. For each antibiotic resistance gene it reports whether the gene is on a plasmid or a chromosome and which organism carries it. Tested on a real mock community where the right answer is known.
 
-**[single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)** – Recovers 8 immune cell populations from 2,700 unlabeled PBMC single-cell profiles using Scanpy – QC, clustering, marker genes, UMAP, all from raw counts.
+**[DeepVariantEffect](https://github.com/IshanMaheshwari01/DeepVariantEffect)** (in progress)
+Predicting whether a missense variant is harmful from the DNA sequence around it, using ClinVar labels and a DNA language model. The dataset is built; the models are next.
 
-**[RNA-seq-differential-expression-analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)** – Differential expression and pathway enrichment on real public TCGA tumor-vs-normal RNA-seq data, built with pydeseq2 and gseapy.
+**[gatk4-germline-pipeline](https://github.com/IshanMaheshwari01/gatk4-germline-pipeline)**
+A Nextflow pipeline that follows the GATK germline steps: BWA-MEM, MarkDuplicates, BQSR, HaplotypeCaller and MultiQC. Runs locally, on SLURM or on AWS Batch.
 
-## Currently learning
+**[single-cell-rnaseq-pbmc3k](https://github.com/IshanMaheshwari01/single-cell-rnaseq-pbmc3k)**
+My first single-cell project. Starting from raw counts for 2,700 blood cells, I used Scanpy to find 8 immune cell types.
 
-Doublet detection and batch integration for single-cell data, and how far I can push AWS Batch / cloud execution for the variant-calling pipeline on larger cohorts.
+**[RNA-seq-differential-expression-analysis](https://github.com/IshanMaheshwari01/RNA-seq-differential-expression-analysis)**
+Tumor vs normal breast tissue from the same 25 TCGA patients, analysed with pydeseq2 and gseapy.
 
-## Reach me
+## Contact
 
 [LinkedIn](https://www.linkedin.com/in/ishanmaheshwari2001) · [Email](mailto:ishanmaheshwari02@gmail.com)
