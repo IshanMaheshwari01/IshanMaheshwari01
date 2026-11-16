@@ -29,8 +29,8 @@ Can a blood sample tell lupus patients apart from healthy people? I used 1.26 mi
 **[amr-nano-context](https://github.com/IshanMaheshwari01/amr-nano-context)**
 A Nextflow pipeline for nanopore metagenomics. For each antibiotic resistance gene it reports whether the gene is on a plasmid or a chromosome and which organism carries it. Tested on a real mock community where the right answer is known.
 
-**[DeepVariantEffect](https://github.com/IshanMaheshwari01/DeepVariantEffect)** (in progress)
-Predicting whether a missense variant is harmful from the DNA sequence around it, using ClinVar labels and a DNA language model. The dataset is built; the models are next.
+**[DeepVariantEffect](https://github.com/IshanMaheshwari01/DeepVariantEffect)**
+Predicting whether a missense variant is harmful from the DNA sequence around it, using ClinVar labels and a DNA language model. Trained a CNN and a fine-tuned Nucleotide Transformer on 207k variants and benchmarked them against CADD, REVEL and AlphaMissense: sequence alone gets you to AUROC 0.78, well short of REVEL's 0.97.
 
 **[gatk4-germline-pipeline](https://github.com/IshanMaheshwari01/gatk4-germline-pipeline)**
 A Nextflow pipeline that follows the GATK germline steps: BWA-MEM, MarkDuplicates, BQSR, HaplotypeCaller and MultiQC. Runs locally, on SLURM or on AWS Batch.
