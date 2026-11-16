@@ -1,6 +1,6 @@
 # Ishan Maheshwari
 
-I'm doing an MSc in Genomics Data Science at the University of Galway. Before that I studied computer engineering, so I like building analyses that someone else can actually rerun, not just a notebook that worked once on my laptop.
+I completed an MSc in Genomics Data Science from the University of Galway. Before that I studied computer engineering, so I like building analyses that someone else can actually rerun, not just a notebook that worked once on my laptop.
 
 I'm based in Ireland and looking for roles in bioinformatics, computational biology and genomics data science.
 
